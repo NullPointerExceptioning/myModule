@@ -1,0 +1,8 @@
+---
+applications:
+- name: myModule
+  host: myModule
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  instances: 1
+  memory: 128M
+  domain: https://api.cf.us10.hana.ondemand.com
